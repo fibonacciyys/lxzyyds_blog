@@ -5,11 +5,8 @@ module.exports = {
   theme: {
     extend: {
       container: {
-        center: false,
+        center: true,
         padding: "2rem",
-        screens: {
-          "2xl": "1400px",
-        },
       },
       colors: {
         border: "hsl(var(--border))",
