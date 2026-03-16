@@ -22,8 +22,8 @@ export function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="border-b border-border/40 bg-muted/30">
-        <div className="container max-w-5xl py-16 md:py-24">
+      <section className="w-full border-b border-border/40 bg-muted/30">
+        <div className="w-full max-w-5xl mx-auto py-16 md:py-24 px-4">
           <div className="text-center space-y-4">
             <div className="inline-flex items-center justify-center p-3 bg-primary/10 rounded-full mb-4">
               <BookOpen className="h-8 w-8 text-primary" />

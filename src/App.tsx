@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="min-h-screen flex flex-col bg-background">
         <Navbar />
-        <main className="flex-1 container max-w-5xl mx-auto">
+        <main className="flex-1 w-full">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/article/:slug" element={<ArticlePage />} />
