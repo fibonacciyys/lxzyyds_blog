@@ -8,7 +8,7 @@
 当使用腾讯云服务器时，可以使用腾讯云docker镜像源。
 不过腾讯云的镜像源只能内网访问，参考：https://cloud.tencent.com/document/product/1207/45596?from=console_top_search
 
-![alt text](/pics/tencent-cloud.png)
+![tencent-cloud](/pics/tencent-cloud.png)
 
 因此，我们需要设置反向代理服务来让其他机器访问。
 腾讯云docker镜像源：https://mirror.ccs.tencentyun.com
@@ -127,7 +127,7 @@ curl http://<腾讯云服务器IP>:8100/health
 curl -I http://<腾讯云服务器IP>:8100/v2/
 ```
 
-![alt text](/pics/docker-registry-200.png)
+![docker-registry-200](/pics/docker-registry-200.png)
 
 返回 `healthy`和`200 OK`则成功。
 

@@ -1,4 +1,4 @@
-import { User, Mail, Github, Twitter, BookOpen, Code, Brain, Sparkles } from "lucide-react";
+import { User, Mail, Github, BookOpen, Code, Brain, Sparkles } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
@@ -107,29 +107,20 @@ export function AboutPage() {
           <h2 className="text-lg font-semibold mb-4">联系方式</h2>
           <div className="flex items-center justify-center space-x-6">
             <a
-              href="mailto:contact@example.com"
+              href="mailto:1102330475@qq.com"
               className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="h-5 w-5" />
               <span>邮箱</span>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/fibonacciyys/lxzyyds_blog"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors"
             >
               <Github className="h-5 w-5" />
               <span>GitHub</span>
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Twitter className="h-5 w-5" />
-              <span>Twitter</span>
             </a>
           </div>
         </div>
